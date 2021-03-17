@@ -15,7 +15,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
   }
 
   // Http hello response
-  fmt.Fprintf(w, "Hello from <me> %s!\n", target)
+  fmt.Fprintf(w, "Hello from Angie %s!\n", target)
 }
 
 func main() {
